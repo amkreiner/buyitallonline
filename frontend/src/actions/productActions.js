@@ -15,7 +15,7 @@ import {
   PRODUCT_DELETE_REQUEST,
   PRODUCT_DELETE_FAIL,
   PRODUCT_DELETE_SUCCESS,
-} from "../constants/productContants";
+} from "../constants/productConstants";
 
 export const listProducts = () => async (dispatch) => {
   dispatch({
